@@ -1,0 +1,9 @@
+// This file contains channel id's of Youtube channels whose videos will not 
+// trigger a creative commons filter warning, despite not having the license.
+//
+// ID's should be separated by a new line.
+
+UC_-mQk3gHEzaC3lsC7D_QnA // Suffice
+UC_aEa8K-EOJ3D6gOs7HcyNg // NCS
+UCht8qITGkBvXKsR1Byln-wA // Audio Library
+UCTrmPaHbaT75DiBFCTU7nZA // Newrappy https://www.reddit.com/r/Twitch/comments/gh6w1l/free_music_for_all_streamers_and_content_creators

@@ -1,0 +1,4 @@
+// This file contains video id's of Youtube videos that will not trigger a 
+// creative commons filter warning, despite not having the license.
+//
+// ID's should be separated by a new line.

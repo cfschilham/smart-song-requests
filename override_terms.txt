@@ -1,0 +1,19 @@
+// This file contains terms used in the override options for video titles,
+// descriptions and tags. So, it will only be used if you have these options
+// enabled.
+//
+// Terms should be separated by a new line and may contain only ASCII characters.
+// If you do not know what this means, basically, don't use emoji's or any
+// characters not typable with a qwerty keyboard (or only with alt-codes). They
+// are not case sensitive.
+
+no copyright
+non-copyright
+non copyright
+copyright free
+royalty free
+creative commons
+#nocopyright
+#copyrightfree
+#royaltyfree
+#creativecommons

@@ -1,0 +1,66 @@
+{
+    "output_file": "config.json",
+    "format_current_song": {
+        "type": "textbox",
+        "value": "Now playing: \"{{title}}\" by {{channel}}. Requested by {{requester}}",
+        "label": "Current Song Message",
+        "group": "Responses",
+        "tooltip": "The message the bot will when a new song starts playing. Available formatting: {{title}}, {{channel}} and {{requester}}"
+    },
+    "youtube_data_api_url": {
+        "type": "textbox",
+        "value":  "https://www.googleapis.com/youtube/v3/videos",
+        "label": "Youtube Data API URI",
+        "group": "Youtube API",
+        "tooltip": "The URL for the Youtube Data API."
+    },
+    "youtube_data_api_key": {
+        "type": "textbox",
+        "value": "",
+        "label": "Youtube Data API v3 Key",
+        "group": "Youtube API",
+        "tooltip": "A key to access the Youtube Data API v3 for video information requests."
+    },
+    "warn_non_creative_commons": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Warn for Non-Creative Commons",
+        "group": "Creative Commons Filter",
+        "tooltip": "Will display a warning in chat if a Youtube video that doesn't have the Creative Commons license is requested or is being played. "
+    },
+    "format_non_cc_requested": {
+        "type": "textbox",
+        "value": "WARNING! The song just requested by {{requester}} is probably copyright.",
+        "label": "Non-Creative Commons Request Warning Message",
+        "group": "Creative Commons Filter",
+        "tooltip": "The warning message that will be displayed if a requested song doesn't have the Creative Commons license. Available formatting: {{title}}, {{channel}} and {{requester}}"
+    },
+    "format_non_cc_playing": {
+        "type": "textbox",
+        "value": "WARNING! The currently playing song is probably copyright.",
+        "label": "Non-Creative Commons Playing Warning Message",
+        "group": "Creative Commons Filter",
+        "tooltip": "The warning message that will be displayed if the currently playing song doesn't have the Creative Commons license and isn't excluded. Available formatting: {{title}}, {{channel}} and {{requester}}"
+    },
+    "title_term_override": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Override if Term(s) in Title",
+        "group": "Creative Commons Filter Exceptions",
+        "tooltip": "If enabled, when one of the terms configured in the override_terms.txt file is present in the title, a warning will not be displayed for non-Creative Commons."
+    },
+    "desc_term_override": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Override if Term(s) in Description",
+        "group": "Creative Commons Filter Exceptions",
+        "tooltip": "If enabled, when one of the terms configured in the override_terms.txt file is present in the description, a warning will not be displayed for non-Creative Commons."
+    },
+    "tags_term_override": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Override if Term(s) in Tags",
+        "group": "Creative Commons Filter Exceptions",
+        "tooltip": "If enabled, when one of the terms configured in the override_terms.txt file is present in the tags, a warning will not be displayed for non-Creative Commons."
+    }
+}
